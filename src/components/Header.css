@@ -1,0 +1,105 @@
+.only-pc {
+  display: block;
+}
+
+.only-sp {
+  display: none;
+}
+
+.header {
+  background: radial-gradient(
+    50% 81.67% at 50% 100%,
+    rgba(246, 243, 239, 0) 0%,
+    #f6f3ef 100%
+  );
+}
+
+.logo {
+  display: block;
+}
+
+.header .content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+}
+
+.header img {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 14px 0 28px;
+}
+
+.header .HeaderBG {
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.header h1 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 52px;
+  line-height: 57px;
+}
+
+@media screen and (max-width: 980px) {
+  .header h1 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+}
+
+.header .mt {
+  margin: 0;
+  padding: 0;
+  width: 62px;
+  height: 45px;
+}
+
+.header .mt4 {
+  margin-top: 42px;
+}
+
+@media screen and (max-width: 480px) {
+  .only-pc {
+    display: none;
+  }
+
+  .only-sp {
+    display: block;
+  }
+
+  .header h1 {
+    font-size: 36px;
+    line-height: 36px;
+    display: block;
+    text-align: center;
+  }
+
+  .header .logo {
+    display: block;
+  }
+
+  .header .mt {
+    position: absolute;
+    top: -90px;
+    left: 42%;
+  }
+
+  .download {
+    text-align: center;
+  }
+
+  .download .apple {
+    padding: 24px 0 2px;
+  }
+
+  .download p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #1d2b3f;
+  }
+}

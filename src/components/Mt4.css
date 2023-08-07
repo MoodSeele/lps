@@ -1,0 +1,25 @@
+.mt4 {
+  text-align: center;
+}
+
+.mt4 p {
+  font-size: 22px;
+  margin: 28px 0;
+  font-weight: bold;
+}
+
+.mt4 .social {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .mt4 p {
+    margin: 28px 26px;
+  }
+
+  .mt4 .social {
+    display: grid;
+  }
+}

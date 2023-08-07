@@ -1,0 +1,102 @@
+.brent-content {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin: 62px 0;
+}
+
+.brent-ellipse {
+  position: relative;
+}
+
+.brent-ellipse .mt4 {
+  z-index: 4;
+  top: 36%;
+  left: 30%;
+}
+
+.brent-ellipse .mt4 p {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: bolder;
+  color: #2d3436;
+  text-align: left;
+  width: 60%;
+  margin: 0 0 30px;
+}
+
+.brent-ellipse .mt4 img {
+  float: left;
+}
+
+.brent-ellipse .ellipse {
+  z-index: 1;
+  position: absolute;
+  top: 24%;
+  margin-left: 172px;
+}
+
+.brent-content .phones {
+  z-index: 2;
+}
+
+.help-section {
+  width: 90%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 22px;
+  background-color: #f8f2ec;
+  border: none;
+  border-radius: 9px;
+  padding: 12px 0;
+}
+
+.help-section u {
+  color: #b68756;
+}
+
+@media screen and (max-width: 480px) {
+  .brent-content {
+    display: grid;
+    padding: 38px 0;
+    margin: 18px 0 52px;
+  }
+
+  .brent-content .phones {
+    width: 421px;
+    margin: 0 auto;
+  }
+
+  .brent-ellipse {
+    order: 2;
+  }
+
+  .brent-ellipse .ellipse {
+    width: 421px;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  .brent-ellipse .mt4 {
+    top: 0;
+    left: 0;
+  }
+
+  .brent-ellipse .mt4 p {
+    margin: 0 auto;
+    top: 42px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .social-brand {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+}

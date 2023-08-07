@@ -1,0 +1,50 @@
+.only-pc {
+  display: block;
+}
+
+.only-sp {
+  display: none;
+}
+
+.swiper {
+  padding: 70px 0;
+}
+
+.swiper-01,
+.swiper-02,
+.swiper-03 {
+  width: 134% !important;
+}
+
+.swiper-pagination {
+  margin: 26px auto;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: 0;
+}
+
+.swiper-pagination-bullet {
+  background: #b68756;
+}
+
+.swiper-pagination-bullet-active {
+  width: 16px;
+  border-radius: 9px;
+}
+
+@media screen and (max-width: 480px) {
+  .only-pc {
+    display: none;
+  }
+
+  .only-sp {
+    display: block;
+  }
+
+  .swiper-wrapper {
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
+}

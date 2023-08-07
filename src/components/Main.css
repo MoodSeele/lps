@@ -1,0 +1,152 @@
+.main {
+  display: flex;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-ellipse,
+.main-phones,
+.main-social {
+  position: relative;
+}
+
+.main-ellipse {
+  right: -30px;
+}
+
+.main .ellipse {
+  width: 100%;
+  margin-top: -46px;
+}
+
+.main .ellipse-content {
+  position: absolute;
+  top: 12%;
+}
+
+.main .ellipse-content p,
+.main .ellipse-content h2 {
+  margin: 14px 100px;
+}
+
+.main .ellipse-content p {
+  font-size: 16px;
+}
+
+.main .ellipse-content h2 {
+  font-size: 24px;
+}
+
+.phones-box {
+  width: 100%;
+  position: relative;
+}
+
+.main .phone {
+  position: absolute;
+  left: 37%;
+  top: -50%;
+  z-index: 2;
+}
+
+.main .IMG2 {
+  position: absolute;
+  top: -26%;
+  z-index: 2;
+}
+
+.main .IMG1 {
+  margin-top: -104px;
+}
+
+.main .ellipse_1 {
+  width: 617px;
+  position: absolute;
+  top: -30%;
+  left: 24%;
+  z-index: 1;
+}
+
+.content-social {
+  position: absolute;
+  z-index: 3;
+  left: 328px;
+  margin-top: 48px;
+}
+
+.content-social p {
+  font-size: 18px;
+}
+
+.content-social .apple {
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    /* overflow-x: hidden; */
+    display: block;
+  }
+
+  .main-ellipse {
+    right: 30px;
+    top: -70px;
+  }
+
+  .main .ellipse-content p,
+  .main .ellipse-content h2 {
+    margin: 16px 0;
+  }
+
+  .main .ellipse-content {
+    left: 20%;
+    right: 0;
+  }
+
+  .main .ellipse-content p {
+    font-size: 22px;
+  }
+
+  .main .ellipse-content h2 {
+    font-size: 26px;
+  }
+
+  .main .IMG1 {
+    width: 190px;
+    margin-top: -180px;
+  }
+
+  .main .phone {
+    width: 226px;
+    left: 20%;
+    top: -132%;
+  }
+
+  .main .IMG2 {
+    width: 190px;
+    top: -113%;
+  }
+
+  .main .ellipse_1 {
+    width: 438px;
+    left: -26px;
+  }
+
+  .content-social {
+    left: 0;
+    margin-top: 114px;
+    text-align: center;
+  }
+
+  .content-social .apple {
+    display: flex;
+    margin: 0 auto 14px;
+  }
+
+  .content-social p {
+    font-size: 18px;
+    line-height: 27px;
+    width: 86%;
+    margin: 0 auto 12px;
+  }
+}
